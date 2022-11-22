@@ -7,6 +7,7 @@ const passwordOutput = document.getElementById("password-output");
 
 console.log(rangeValue.value);
 
+//Function to generate random password
 const generatePassword = () => {
   let data = [];
   let password = "";
@@ -37,4 +38,5 @@ const generatePassword = () => {
   }, 1000);
 };
 
+//When generateButton clicked, play function
 generateButton.addEventListener("click", generatePassword);
